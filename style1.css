@@ -1,0 +1,50 @@
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+td,th {
+    background-color: rgba(255, 255, 255, 0);
+}
+.cell_bg {
+    background-color: rgba(23, 173, 98, 0.973);
+    height: 100%;
+    color: beige;
+    
+
+}
+.bg_img1 img {
+    width: 70px;
+    object-fit: cover;
+}
+.bg_img2 img {
+    width: 70px;
+    object-fit: cover;
+}
+td {
+    text-align: center;
+    position: relative;
+    height: 70px;
+    color: blueviolet;
+    
+}
+table {
+    width: 100%;
+    column-rule-style: 12px;
+    empty-cells: show;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+tr {
+    height: 10px;
+}
+tr.row-height-1 {
+    height: 50px; /* Height for the first row */
+  }
+  .bd1 {
+    border-style: 2px dashed;
+    border-color: rgb(116, 16, 16);
+  }
